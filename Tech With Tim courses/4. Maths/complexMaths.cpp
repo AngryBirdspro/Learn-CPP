@@ -4,7 +4,6 @@
 #include <cstdlib>
 // Input/Output Manipulate LIBRARY
 #include <iomanip>
-#include <string>
 using namespace std;
 int main()
 {
