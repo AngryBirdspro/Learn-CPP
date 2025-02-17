@@ -1,0 +1,40 @@
+The <climits> library in C++ provides the limits for fundamental data types, such as the minimum and maximum values that different integer types can hold. 
+These constants help programmers ensure that values stay within the appropriate range, preventing overflow or underflow errors.
+
+•   CHAR_BIT: The number of bits in a byte (usually 8 bits).
+
+•   SCHAR_MIN: The minimum value of a signed char.
+
+•   SCHAR_MAX: The maximum value of a signed char.
+
+•   UCHAR_MAX: The maximum value of an unsigned char.
+
+•   CHAR_MIN: The minimum value of char (either SCHAR_MIN or 0, depending on whether char is signed or unsigned by default).
+
+•   CHAR_MAX: The maximum value of char (either SCHAR_MAX or UCHAR_MAX, depending on the sign of char).
+
+•   MB_LEN_MAX: The maximum number of bytes in a multibyte character (for wide-character encodings).
+
+•   SHRT_MIN: The minimum value of a signed short int.
+
+•   SHRT_MAX: The maximum value of a signed short int.
+
+•   USHRT_MAX: The maximum value of an unsigned short int.
+
+•   INT_MIN: The minimum value of a signed int.
+
+•   INT_MAX: The maximum value of a signed int.
+
+•   UINT_MAX: The maximum value of an unsigned int.
+
+•   LONG_MIN: The minimum value of a signed long int.
+
+•   LONG_MAX: The maximum value of a signed long int.
+
+•   ULONG_MAX: The maximum value of an unsigned long int.
+
+•   LLONG_MIN: The minimum value of a signed long long int (C++11 and later).
+
+•   LLONG_MAX: The maximum value of a signed long long int (C++11 and later).
+
+•   ULLONG_MAX: The maximum value of an unsigned long long int (C++11 and later).

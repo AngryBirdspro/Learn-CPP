@@ -1,0 +1,22 @@
+In C++, there is a library called <stdexcept> which includes a wide range of functions that can be used to handle runtime errors ONLY
+
+std::exception
+•   The base class for all standard exceptions. This is typically what you catch if you want to handle a broad category of errors.
+
+std::invalid_argument
+•   Thrown when an invalid argument is passed to a function. This is useful for functions that require parameters to be within a certain 
+range or format.
+
+std::out_of_range
+•   Thrown when an access exceeds the bounds of a container or a permissible range. Useful for containers like std::vector, or when 
+handling numeric limits.
+
+std::length_error
+•   Thrown when a function attempts to create a container with a length that exceeds its maximum size.
+
+std::domain_error
+•   Thrown when a mathematical function is given an argument that is outside of its defined domain (e.g., taking the square root of a 
+    negative number).
+
+std::overflow_error
+•   Thrown when an arithmetic operation results in an overflow.

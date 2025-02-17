@@ -1,0 +1,60 @@
+There is a C++ library called <math.h> or <cmaths> which is a library that enables all maths functions and special numbers such as
+PI and Euler's Number.
+
+LIST OF math.h LIBRARY EXCLUSIVES AND THEIR ABBREVIATIONS AND DEFINITIONS
+Basic Arithmetic Functions:
+float sqrt(float x) - returns the square root of x. -> (Square Root)
+float cbrt(float x) - returns the cube root of x. -> (Cube Root)
+float pow(float x, float y) - returns x raised to the power y (x^y).
+float hypot(float x, float y) - returns the square root of x^2 + y^2, the length of the hypotenuse. -> (Pythagora's theorom)
+float fabs(float x) - returns the absolute value of x. (Absolute Vale)
+float fmod(float x, float y) - returns the remainder of the division of x by y. -> (Floating Point Modulo)
+
+Trigonometric Functions:
+float sin(float x) - returns the sine of x (in radians).
+float cos(float x) - returns the cosine of x (in radians).
+float tan(float x) - returns the tangent of x (in radians).
+float asin(float x) - returns the arc sine (inverse sine) of x in radians. -> Inverse Sine
+float acos(float x) - returns the arc cosine (inverse cosine) of x in radians. -> Inverse Cosine
+float atan(float x) - returns the arc tangent (inverse tangent) of x in radians. -> Inverse Tangent
+float atan2(float y, float x) - returns the angle in radians between the positive x-axis and the point (x, y). -> (Angle in Polar Coordinates)
+float sinh(float x) - returns the hyperbolic sine of x. -> (Hyperbolic Sine)
+float cosh(float x) - returns the hyperbolic cosine of x. -> (Hyperbolic Cosine)
+float tanh(float x) - returns the hyperbolic tangent of x. -> (Hyperbolic Tangent)
+
+Exponential and Logarithmic Functions:
+float exp(float x) - returns the exponential of x (e^x).
+float exp2(float x) - returns 2^x (two raised to the power x).
+float log(float x) - returns the natural logarithm of x (log_e(x)).
+float log10(float x) - returns the base-10 logarithm of x.
+float log2(float x) - returns the base-2 logarithm of x.
+float log1p(float x) - returns log(1 + x) for small x to avoid precision loss in calculations.
+float expm1(float x) - returns exp(x) - 1, useful for small x to avoid precision loss.
+
+Rounding Functions:
+float ceil(float x) - rounds x up to the nearest integer. -> (Round Up)
+float floor(float x) - rounds x down to the nearest integer. -> (Round Down)
+float round(float x) - rounds x to the nearest integer. -> (Round to nearest)
+float trunc(float x) - truncates the decimal part of x. -> (Truncate Decimal)
+float modf(float x, float *intpart) - splits x into its integer and fractional parts, storing the integer part in the location pointed to by 
+intpart. -> (Split into Integer and Fractional Parts)
+float fdim(float x, float y) - returns the positive difference between x and y (x - y if x > y, else 0). -> (Positive Difference)
+float fmax(float x, float y) - returns the maximum of x and y.
+float fmin(float x, float y) - returns the minimum of x and y.
+
+Error and Gamma Functions:
+float erf(float x) - returns the error function of x, used in probability, statistics, and partial differential equations. -> (Error Function)
+float erfc(float x) - returns the complementary error function of x, 1 - erf(x). -> (Complementary Error Function)
+float tgamma(float x) - returns the gamma function of x, which generalizes the factorial function for non-integer values. -> (Gamma Function)
+float lgamma(float x) - returns the natural logarithm of the absolute value of the gamma function of x. -> (Logarithm of Gamma Function)
+
+Floating-Point Classification Functions:
+int isnan(float x) - returns nonzero if x is a "Not-a-Number" (NaN) value. -> (Check if Not a Number)
+int isinf(float x) - returns nonzero if x is an infinity value. -> (Check if Infinite)
+int isfinite(float x) - returns nonzero if x is a finite number (neither infinite nor NaN). -> (Check if Finite)
+int signbit(float x) - returns nonzero if x has a negative sign (even if x is 0 or NaN). -> (Check Sign Bit (Negative))
+int isnormal(float x) - returns nonzero if x is a normal floating-point number. -> (Check if Normal Floating Point)
+
+Constants Defined in math.h:
+M_PI - constant representing the value of π (3.14159...).
+M_E - constant representing Euler's number e (2.71828...).

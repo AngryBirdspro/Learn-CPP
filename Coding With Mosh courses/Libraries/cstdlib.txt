@@ -1,0 +1,39 @@
+The <cstdlib> or <stdlib.h> (C Standard Library) is a library that provides general purpose functions
+
+Memory Management
+•   aligned_alloc(size_t alignment, size_t size) - Allocates memory of size bytes aligned to a specified boundary (alignment).
+
+Program Control
+•   atexit(void (*func)()) - Registers a function func to be called upon normal program termination.
+•   getenv(const char* name) - Retrieves the value of the environment variable name.
+•   quick_exit(int status) - Terminates the program quickly without fully cleaning up resources.
+
+Conversions
+•   strtoul(const char* str, char** endptr, int base) - Converts a string str to an unsigned long integer.
+•   strtoll(const char* str, char** endptr, int base) - Converts a string str to a long long integer.
+•   strtoull(const char* str, char** endptr, int base) - Converts a string str to an unsigned long long integer.
+
+Random Number Generation
+•   rand_r(unsigned int* seedp) - A reentrant version of rand() that uses a user-supplied seed (non-standard, specific to certain platforms).
+
+Mathematical Functions
+•   imaxabs(intmax_t n) - Returns the absolute value of a intmax_t type integer.
+•   imaxdiv(intmax_t numerator, intmax_t denominator) - Performs integer division with the largest available integer types.
+
+Integer Types and Limits
+•   abs(int x) - Returns the absolute value of x as an integer.
+•   labs(long x) - Returns the absolute value of x as a long integer.
+•   llabs(long long x) - Returns the absolute value of x as a long long integer.
+•   div_t, ldiv_t, lldiv_t - Structures to hold the result of integer division (quotient and remainder).
+
+Multi-byte and Wide Character Functions
+•   mbtowc(wchar_t *pwc, const char *pmb, size_t max) - Converts a multi-byte character to a wide character.
+•   wctomb(char *pmb, wchar_t wc) - Converts a wide character to a multi-byte character.
+•   mblen(const char *pmb, size_t max) - Returns the number of bytes in the next multi-byte character.
+
+Process Control
+•   _Exit(int status) - Terminates the program without cleaning up resources (unlike exit()).
+•   system(const char* command) - Runs a shell command and returns the result.
+
+POSIX Extensions (Not Standard in C++)
+•   mkstemp(char *template) - Creates a temporary file with a unique name based on a template.

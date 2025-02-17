@@ -1,0 +1,51 @@
+The <iomanip> (input/output manipulators) library in C++ provides facilities for controlling the formatting of input and output. It's particularly useful for 
+setting the precision of floating-point numbers, manipulating the width of fields, and other formatting needs.
+
+•   setw(int n): Sets the width for the next output field.
+
+•   setfill(char c): Sets the fill character for padding when the width exceeds the output.
+
+•   setprecision(int n): Sets the number of digits to display after the decimal point for floating-point numbers.
+•   fixed: Forces floating-point numbers to be displayed in fixed-point notation.
+
+•   scientific: Forces floating-point numbers to be displayed in scientific notation.
+
+•   hex: Outputs numbers in hexadecimal format.
+
+•   dec: Outputs numbers in decimal format.
+
+•   oct: Outputs numbers in octal format.
+
+•   showbase: Displays the numeric base (0x for hex, 0 for octal) for integer values.
+
+•   noshowbase: Disables the display of the base for integer values.
+
+•   uppercase: Forces uppercase letters for hexadecimal and scientific notation.
+
+•   nouppercase: Disables uppercase letters for hexadecimal and scientific notation.
+
+•   boolalpha: Displays boolean values as true or false instead of 1 and 0.
+
+•   noboolalpha: Reverts boolean values back to 1 and 0.
+
+•   left: Aligns output to the left within the specified width.
+
+•   right: Aligns output to the right (default behavior) within the specified width.
+
+•   internal: Aligns the sign of the number to the left and the numeric value to the right within the width.
+
+•   showpos: Displays a + sign before positive numbers.
+
+•   noshowpos: Disables the display of the + sign for positive numbers.
+
+•   flush: Flushes the output buffer, ensuring immediate display of the output.
+
+•   endl: Inserts a newline character and flushes the output buffer.
+
+•   setbase(int base): Sets the numeric base (e.g., 8 for octal, 10 for decimal, 16 for hexadecimal).
+
+•   setiosflags(ios_base::fmtflags flags): Sets specific formatting flags for stream manipulators.
+
+•   resetiosflags(ios_base::fmtflags flags): Resets specific formatting flags for stream manipulators.
+
+•   setlocale(const char* locale): Sets the locale for numeric and other formatting operations.
