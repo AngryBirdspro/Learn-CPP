@@ -83,4 +83,6 @@ int main()
     cout << arr6[0] << endl;
     cout << arr7[0] << endl;
     cout << arr8[0] << endl;
+
+    return 0;
 }
