@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+
 using namespace std;
 // cin.ignore(x); will ignore x amount of characters
 // cin.ignore() will only except integers and chars as its 2 arguments

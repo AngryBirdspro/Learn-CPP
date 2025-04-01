@@ -1,10 +1,10 @@
 #include <iostream>
 #include <math.h>
-// C++ STANDARD LIBRARY
-#include <cstdlib>
 // Input/Output Manipulate LIBRARY
 #include <iomanip>
+
 using namespace std;
+
 int main()
 {
     // MAIN

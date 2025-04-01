@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 // A for loop is a repitition control structure that allows you to effeciently write a loop that needs to be executed a certain amount of 

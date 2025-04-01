@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+
 using namespace std;
 // C++ directly returns the value of True (1) and False (0) boolean logic
 // It can be proved with something like "bool test 'a' == 'A'" that even with the slightest change withing a character in a string

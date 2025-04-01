@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 /*
@@ -51,4 +50,6 @@ int main()
         // Printing out the element contained within the memory location the pointer is assigned to
         cout << *c << endl;
     }
+
+    return 0;
 }
